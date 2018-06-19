@@ -101,9 +101,7 @@ public class ArticleListActivity extends AppCompatActivity implements
         }
     };
 
-    private void updateRefreshingUI() {
-        mSwipeRefreshLayout.setRefreshing(mIsRefreshing);
-    }
+    private void updateRefreshingUI() { mSwipeRefreshLayout.setRefreshing(mIsRefreshing); }
 
     @Override
     public Loader<Cursor> onCreateLoader(int i, Bundle bundle) {
@@ -129,9 +127,7 @@ public class ArticleListActivity extends AppCompatActivity implements
     private class Adapter extends RecyclerView.Adapter<ViewHolder> {
         private Cursor mCursor;
 
-        public Adapter(Cursor cursor) {
-            mCursor = cursor;
-        }
+        public Adapter(Cursor cursor) { mCursor = cursor; }
 
         @Override
         public long getItemId(int position) {
