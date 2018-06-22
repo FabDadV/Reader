@@ -1,10 +1,10 @@
 <resources>
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="actionBarSize">48dp</item>
+        <item name="android:actionBarSize">48dp</item>
     </style>
 
-<!--
     <style name="Theme.Bacon.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
--->
 </resources>
