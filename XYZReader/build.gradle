@@ -13,7 +13,6 @@ repositories {
     mavenCentral()
     google()
 }
-
 android {
     compileSdkVersion 27
     buildToolsVersion "27.0.3"
@@ -23,7 +22,6 @@ android {
         targetSdkVersion 27
     }
 }
-
 dependencies {
     implementation "com.android.support:support-v13:$androidSupportVersion"
     implementation "com.android.support:appcompat-v7:$androidSupportVersion"
