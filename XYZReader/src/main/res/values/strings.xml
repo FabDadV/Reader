@@ -10,5 +10,8 @@
     <string name="up">Up</string>
 
     <string name="empty"> </string>
+    <string name="plus_lines">4</string>
+    <string name="norm_lines">2</string>
+
 
 </resources>

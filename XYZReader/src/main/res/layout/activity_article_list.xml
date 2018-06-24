@@ -10,18 +10,18 @@
         android:id="@+id/main.appbar"
         android:layout_width="match_parent"
         android:layout_height="@dimen/app_bar_height"
-        android:elevation="@dimen/normal_elevation"
-        android:fitsSystemWindows="true">
+        android:fitsSystemWindows="true"
+        app:elevation="@dimen/norm_elevation">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/main.collapsing"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:elevation="@dimen/normal_elevation"
             android:fitsSystemWindows="true"
             app:contentScrim="?attr/colorPrimary"
             app:expandedTitleMarginEnd="@dimen/list_toolbar_side_margin"
             app:expandedTitleMarginStart="@dimen/list_toolbar_side_margin"
+            app:elevation="@dimen/norm_elevation"
             app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
             <ImageView
@@ -40,7 +40,7 @@
                 android:layout_height="?android:actionBarSize"
                 android:layout_gravity="bottom"
                 android:background="@color/theme_primary"
-                android:elevation="@dimen/normal_elevation"
+                app:elevation="@dimen/norm_elevation"
                 app:layout_collapseMode="pin">
 
                 <ImageView
@@ -64,10 +64,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:clipToPadding="false"
-                android:paddingBottom="28dp"
+                android:paddingBottom="@dimen/plus_padding"
                 android:paddingLeft="@dimen/list_side_margin"
                 android:paddingRight="@dimen/list_side_margin"
-                android:paddingTop="16dp"
+                android:paddingTop="@dimen/plus_padding"
                 android:scrollbarStyle="outsideOverlay"
                 />
         </android.support.v4.widget.SwipeRefreshLayout>
